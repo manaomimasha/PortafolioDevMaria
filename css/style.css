@@ -2,26 +2,153 @@
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
 
-   
-   
-
-
-
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body{line-height:1}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
-nav ul{list-style:none}
-blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
-del{text-decoration:line-through}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
-input,select{vertical-align:middle}
-li{list-style:none}
-
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+li {
+  list-style: none;
+}
 
 /* =============================================================================
    My CSS
@@ -29,13 +156,14 @@ li{list-style:none}
 
 /* ---- base ---- */
 
-html,body{ 
-	width:100%;
-	height:100%;
-	background:#111;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #111;
 }
 
-html{
+html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 /* 
@@ -43,22 +171,21 @@ body{
   font:normal 75% Arial, Helvetica, sans-serif;
 } */
 
-canvas{
-  display:block;
-  vertical-align:bottom;
+canvas {
+  display: block;
+  vertical-align: bottom;
 }
-
 
 /* ---- stats.js ---- */
 
-.count-particles{
+.count-particles {
   background: #000022;
   position: absolute;
   top: 48px;
   left: 0;
   width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
+  color: #13e8e9;
+  font-size: 0.8em;
   text-align: left;
   text-indent: 4px;
   line-height: 14px;
@@ -72,29 +199,28 @@ canvas{
 } */
 
 #stats,
-.count-particles{
+.count-particles {
   -webkit-user-select: none;
   margin-top: 5px;
   margin-left: 5px;
 }
 
-#stats{
+#stats {
   border-radius: 3px 3px 0 0;
   overflow: hidden;
 }
 
-.count-particles{
+.count-particles {
   border-radius: 0 0 3px 3px;
 }
 
-
 /* ---- particles.js container ---- */
 
-#particles-js{
+#particles-js {
   width: 100%;
   height: 100%;
   background-color: #0d0636;
-  background-image: url('');
+  background-image: url("");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -112,11 +238,9 @@ body {
   text-align: center;
 } */
 
-
-
 html,
 body {
-  font-family: 'Play', sans-serif;
+  font-family: "Play", sans-serif;
   background-color: black;
   margin: 0;
   padding: 0;
@@ -157,9 +281,7 @@ span {
   padding: 20px 100px;
   display: flex;
   justify-content: space-between;
-        flex-direction: row;
-        padding: 500px;
- 
+  flex-direction: row;
 }
 
 .experiencias div:hover {
@@ -168,7 +290,7 @@ span {
 }
 
 .experiencias div {
-   width: 150px;
+  width: 150px;
   height: 250px;
   background: rgb(33, 33, 33);
   transition: width 2s;
@@ -178,4 +300,38 @@ span {
 .experiencias h1 {
   padding-left: 10px;
   text-align: center;
+}
+
+img {
+  --s: 250px;   /* the size of the image */
+  --b: 8px;     /* the border thickness*/
+  --g: 14px;    /* the gap */
+  --c: #4ECDC4; /* the color */
+  
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid #0009;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+img + img {
+  border-radius: 50%;
+}
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 50px;
+  place-content: center;
+  place-items: center;
+  background: #C8C8A9;
 }
