@@ -338,7 +338,7 @@ span {
   place-items: center;
   background-color: rgb(5, 0, 46); 
 } 
-.experiencias div {
+.tech {
   display: flex;
   justify-content: center;
   align-items: center;
