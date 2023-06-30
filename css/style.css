@@ -338,7 +338,8 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  backgound-color: rgb(172, 172, 172);
+  backgound-color: rgb(1, 0, 28);
+  padding: 200px;
 }
 
 .tech {
@@ -346,7 +347,7 @@ span {
   color: white;
 }
 
-
+/* 
 @media (max-width: 768px) {
   .experiencias {
     grid-auto-flow: row;
@@ -354,4 +355,4 @@ span {
   .experiencias div {
     flex-direction: column;
   }
-}
+} */
