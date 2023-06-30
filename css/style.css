@@ -338,20 +338,20 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  backgound-color: rgb(172, 172, 172);
+  backgound-color: rgb(1, 0, 28);
+  padding: 200px;
 }
 
 .tech {
   padding-top: 50px;
   color: white;
 }
-
-
-@media (max-width: 768px) {
+ 
+@media (min-width: 768px) {
   .experiencias {
     grid-auto-flow: row;
   }
   .experiencias div {
     flex-direction: column;
   }
-}
+} 
