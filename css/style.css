@@ -317,16 +317,13 @@ span {
   transition: 0.3s;
    text-align: center;
     font-size: 300%;
-    border-radius: 50%;
+
 }
 .experiencias div h1:hover {
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
 }
 
-.tech + .tech {
-  border-radius: 50%;
-}
 
 
 .experiencias {
@@ -352,6 +349,6 @@ span {
 
 .tech {
   padding-top: 50px;
-  color: #fff;
+  color: white
 }
 
