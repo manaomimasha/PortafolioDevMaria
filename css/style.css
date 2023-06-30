@@ -304,27 +304,24 @@ span {
 } */
 
 .experiencias div h1 {
-  --s: 250px;   /* the size of the image */
-  --b: 8px;     /* the border thickness*/
-  --g: 14px;    /* the gap */
-  --c: #4ECDC4; /* the color */
-  
+  --s: 250px; /* the size of the image */
+  --b: 8px; /* the border thickness*/
+  --g: 14px; /* the gap */
+  --c: #4ecdc4; /* the color */
+
   width: var(--s);
   aspect-ratio: 1;
-  outline: calc(var(--s)/2) solid rgba(77, 77, 77, 0.6);
-  outline-offset: calc(var(--s)/-2);
+  outline: calc(var(--s) / 2) solid rgba(77, 77, 77, 0.6);
+  outline-offset: calc(var(--s) / -2);
   cursor: pointer;
-  transition: 0.3s;
-   text-align: center;
-    font-size: 300%;
-
+  transition: 0.4s;
+  text-align: center;
+  font-size: 300%;
 }
 .experiencias div h1:hover {
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
 }
-
-
 
 .experiencias {
   margin: 0;
@@ -334,21 +331,16 @@ span {
   gap: 50px;
   place-content: center;
   place-items: center;
-  color: rgb(5, 0, 46); 
-  
-} 
+  color: rgb(5, 0, 46);
+}
 .experiencias div {
   display: flex;
   justify-content: center;
   align-items: center;
   backgound-color: rgb(169 255 249);
-  border-radius: 50%;
-  
-  
 }
 
 .tech {
   padding-top: 50px;
-  color: white
+  color: white;
 }
-
