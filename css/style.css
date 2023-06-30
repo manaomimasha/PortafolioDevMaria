@@ -346,3 +346,13 @@ span {
   padding-top: 50px;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .experiencias {
+    grid-auto-flow: row;
+      padding: 20px;
+  }
+
+  
+}
+
