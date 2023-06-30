@@ -315,13 +315,15 @@ span {
   outline-offset: calc(var(--s)/-2);
   cursor: pointer;
   transition: 0.3s;
+   text-align: center;
+    font-size: 300%;
 }
 .experiencias div h1:hover {
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
 }
 
-.experiencias div h1 + .experiencias div h1 {
+.tech + .tech {
   border-radius: 50%;
 }
 
@@ -334,5 +336,10 @@ span {
   gap: 50px;
   place-content: center;
   place-items: center;
-  background: #C8C8A9;
+  background-color: rgb(5, 0, 46); 
+} 
+.experiencias div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
