@@ -32,6 +32,36 @@
   </p>
 </div>
 
+<script>
+  // Obtener el contenedor y la posición del scroll
+  var additionalContent = document.getElementById('experiencias');
+
+  window.addEventListener('scroll', function() {
+    // Verificar si el usuario ha llegado al final de la pantalla
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+      // Mostrar el contenido adicional
+      additionalContent.style.display = 'block';
+    }
+  });
+</script>
+
+
+
+<div class="experiencias" >
+        <div>
+        <h1> HTML</h1>
+      </div>
+
+      <div>
+        <h1> CSS</h1>
+      </div>
+      <div>
+        <h1> REACT </h1>
+      </div>
+    </div>
+  
+</div>
+
 
 <!-- count particles -->
 <!-- <div class="count-particles">
