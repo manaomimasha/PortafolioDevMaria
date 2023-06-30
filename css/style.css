@@ -276,6 +276,7 @@ span {
   color: rgb(201, 201, 201);
   line-height: 0.7;
 }
+/* 
 .experiencias {
   color: rgb(254, 206, 206);
   padding: 20px 100px;
@@ -300,9 +301,9 @@ span {
 .experiencias h1 {
   padding-left: 10px;
   text-align: center;
-}
+} */
 
-img {
+.experiencias div h1 {
   --s: 250px;   /* the size of the image */
   --b: 8px;     /* the border thickness*/
   --g: 14px;    /* the gap */
@@ -315,17 +316,17 @@ img {
   cursor: pointer;
   transition: 0.3s;
 }
-img:hover {
+.experiencias div h1:hover {
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
 }
 
-img + img {
+.experiencias div h1 + .experiencias div h1 {
   border-radius: 50%;
 }
 
 
-body {
+.experiencias {
   margin: 0;
   min-height: 100vh;
   display: grid;
