@@ -275,6 +275,7 @@ span {
   font-weight: 400;
   color: rgb(201, 201, 201);
   line-height: 0.7;
+  font-size: 150%;
 }
 /* 
 .experiencias {
@@ -315,32 +316,33 @@ span {
   outline-offset: calc(var(--s) / -2);
   cursor: pointer;
   transition: 0.3s;
-
-  /* text-align: center; */
+  text-align: center;
   font-size: 300%;
 }
+
 .experiencias div h1:hover {
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
 }
 
 .experiencias {
-  margin: 0;
+ margin: 0;
   min-height: 100vh;
+  display: grid;
   grid-auto-flow: column;
   gap: 50px;
   place-content: center;
   place-items: center;
-  background: rgb(1, 0, 21);
+  background: black;
+  
 }
+
 .experiencias div {
   align-items: center;
   color: rgb(1, 0, 28);
- }
+}
 
 .tech {
   padding-top: 50px;
   color: white;
 }
-
-
