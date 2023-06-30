@@ -303,7 +303,7 @@ span {
   text-align: center;
 } */
 
-.experiencias div h1 {
+.experiencias div{
   --s: 250px;   /* the size of the image */
   --b: 8px;     /* the border thickness*/
   --g: 14px;    /* the gap */
@@ -317,8 +317,9 @@ span {
   transition: 0.3s;
    text-align: center;
     font-size: 300%;
+    border-radius: 50%;
 }
-.experiencias div h1:hover {
+.experiencias div:hover {
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
 }
@@ -336,10 +337,18 @@ span {
   gap: 50px;
   place-content: center;
   place-items: center;
-  color: rgb(5, 0, 46); 
+  background-color: rgb(5, 0, 46); 
 } 
-.tech {
+.experiencias div {
   display: flex;
   justify-content: center;
   align-items: center;
+  backgound-color: rgb(169 255 249);
+  border-radius: 50%;
+  
 }
+
+.tech {
+  padding-top: 50px;
+}
+
