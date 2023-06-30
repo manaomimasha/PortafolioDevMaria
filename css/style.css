@@ -346,12 +346,5 @@ span {
   padding-top: 50px;
   color: white;
 }
- 
-@media (min-width: 768px) {
-  .experiencias {
-    grid-auto-flow: row;
-  }
-  .experiencias div {
-    flex-direction: column;
-  }
-} 
+
+
