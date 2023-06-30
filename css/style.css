@@ -326,20 +326,21 @@ span {
 }
 
 .experiencias {
- margin: 0;
+   margin: 0;
   min-height: 100vh;
-  display: grid;
+
   grid-auto-flow: column;
   gap: 50px;
   place-content: center;
   place-items: center;
-  background: black;
-  
-}
+  background: #919191;
 
+}
 .experiencias div {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  color: rgb(1, 0, 28);
+  backgound-color: rgb(172, 172, 172);
 }
 
 .tech {
