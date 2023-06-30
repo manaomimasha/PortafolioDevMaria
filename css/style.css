@@ -336,7 +336,7 @@ span {
   gap: 50px;
   place-content: center;
   place-items: center;
-  background-color: rgb(5, 0, 46); 
+  color: rgb(5, 0, 46); 
 } 
 .tech {
   display: flex;
