@@ -327,7 +327,6 @@ span {
 .experiencias {
   margin: 0;
   min-height: 100vh;
-
   grid-auto-flow: column;
   gap: 50px;
   place-content: center;
@@ -335,12 +334,9 @@ span {
   background: #989898;
 }
 .experiencias div {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  backgound-color: rgb(1, 0, 28);
-  padding: 200px;
-}
+  color: rgb(1, 0, 28);
+ }
 
 .tech {
   padding-top: 50px;
