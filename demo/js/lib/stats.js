@@ -49,10 +49,10 @@ var Stats = function () {
 	msText.innerHTML = 'MS';
 	msDiv.appendChild( msText );
 
-	var msGraph = document.createElement( 'div' );
-	msGraph.id = 'msGraph';
-	msGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0f0';
-	msDiv.appendChild( msGraph );
+	// var msGraph = document.createElement( 'div' );
+	// msGraph.id = 'msGraph';
+	// msGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0f0';
+	// msDiv.appendChild( msGraph );
 
 	while ( msGraph.children.length < 74 ) {
 
