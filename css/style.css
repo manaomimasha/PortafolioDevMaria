@@ -298,3 +298,32 @@ span {
   line-height: 0.9;
   font-size: 150%;
 }
+
+
+
+
+.whatsapp-container {
+  position: fixed;
+  left: 20px;
+  top: calc(50% - 35px); /* Ajusta esta línea para centrar verticalmente el icono */
+  z-index: 9999;
+}
+
+.whatsapp {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png) no-repeat 0 1px;
+  background-size: 100% auto;
+  text-indent: -9999em;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp:hover {
+  transform: translateX(100px); /* Ajusta esta línea para controlar el desplazamiento horizontal */
+}
+
+
+

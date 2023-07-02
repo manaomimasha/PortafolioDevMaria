@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>PORTAFOLIO DE MARIA TARIMA</title>
   <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
   <meta name="author" content="Vincent Garreau" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
   <link rel="stylesheet" media="screen" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,56 +17,57 @@
 
 
 </head>
+
 <body>
 
-  
-
-  
-<div class="centered"> 
-  <h1>
-    <span className="azul">Bienvenido! Soy María!</span>
-  </h1>
-  <p>
-    Mi nombre es María Tarima y soy estudiante de programación. Cuento con experiencia en atención al cliente,
-    administración y gestión de proyectos. En los últimos meses comencé a estudiar lenguajes de programación con
-    la intención de insertarme profesionalmente en la industria de IT. Me considero una persona entusiasta,
-    dinámica y con facilidad para el aprendizaje de nuevos temas..
-  </p>
-</div>
 
 
-<!-- count particles -->
-<!-- <div class="count-particles">
+
+  <div class="centered">
+    <h1>
+      <span className="azul">Bienvenido! Soy María!</span>
+    </h1>
+    <p>
+      Mi nombre es María Tarima y soy estudiante de programación. Cuento con experiencia en atención al cliente,
+      administración y gestión de proyectos. En los últimos meses comencé a estudiar lenguajes de programación con
+      la intención de insertarme profesionalmente en la industria de IT. Me considero una persona entusiasta,
+      dinámica y con facilidad para el aprendizaje de nuevos temas..
+    </p>
+  </div>
+
+
+  <!-- count particles -->
+  <!-- <div class="count-particles">
   <span class="js-count-particles">--</span> particles
 </div> -->
 
-<!-- particles.js container -->
-<div id="particles-js"></div>
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
 
-<!-- scripts -->
-<script src="particles.js"></script>
-<script src="js/app.js"></script>
+  <!-- scripts -->
+  <script src="particles.js"></script>
+  <script src="js/app.js"></script>
 
-<!-- stats.js -->
-<script src="js/lib/stats.js"></script>
-<script>
-  var count_particles, stats, update;
-  stats = new Stats;
-  stats.setMode(0);
-  stats.domElement.style.position = 'absolute';
-  stats.domElement.style.left = '0px';
-  stats.domElement.style.top = '0px';
-  document.body.appendChild(stats.domElement);
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
+  <!-- stats.js -->
+  <script src="js/lib/stats.js"></script>
+  <script>
+    var count_particles, stats, update;
+    stats = new Stats;
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector('.js-count-particles');
+    update = function () {
+      stats.begin();
+      stats.end();
+      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+      }
+      requestAnimationFrame(update);
+    };
     requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
 
 
   </script>
@@ -72,19 +75,36 @@
 
 
 
-<script>
-  // Obtener el contenedor y la posición del scroll
-  var additionalContent = document.getElementById('experiencias');
+  <script>
+    // Obtener el contenedor y la posición del scroll
+    var additionalContent = document.getElementById('experiencias');
 
-  window.addEventListener('scroll', function() {
-    // Verificar si el usuario ha llegado al final de la pantalla
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-      // Mostrar el contenido adicional
-      additionalContent.style.display = 'block';
-    }
-  });
-</script>
+    window.addEventListener('scroll', function () {
+      // Verificar si el usuario ha llegado al final de la pantalla
+      if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+        // Mostrar el contenido adicional
+        additionalContent.style.display = 'block';
+      }
+    });
+  </script>
 
+
+
+  <div class="sigueme">
+   
+    
+    <div class="whatsapp-container">
+      <a class="whatsapp" target="_blank" href="https://wa.me/541130912600" title="whatsapp">WhatsApp</a>
+    </div>
+
+    
+
+    </div>
+    
+
+
+  </div>
 
 </body>
+
 </html>
