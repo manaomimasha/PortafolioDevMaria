@@ -302,28 +302,48 @@ span {
 
 
 
-.whatsapp-container {
+.contact-container {
   position: fixed;
-  left: 20px;
-  top: calc(50% - 35px); /* Ajusta esta línea para centrar verticalmente el icono */
+  top: calc(50% - 35px); 
   z-index: 9999;
+      
 }
+
 
 .whatsapp {
   position: relative;
   display: block;
   width: 60px;
   height: 60px;
-  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png) no-repeat 0 1px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/archive/6/6b/20181018164719%21WhatsApp.svg) no-repeat 0 1px;
   background-size: 100% auto;
   text-indent: -9999em;
   cursor: pointer;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 1s ease-in-out;
+  background-color: rgb(10, 168, 10);
+  padding-bottom: 5px;
 }
 
-.whatsapp:hover {
-  transform: translateX(100px); /* Ajusta esta línea para controlar el desplazamiento horizontal */
+
+.linkedin {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(
+    https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg ) no-repeat 0 1px;
+  background-size: 100% auto;
+  text-indent: -9999em;
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+  /* transition: width 2s; */
+  background-color: rgb(46, 6, 224);
+   /* background: blue; */
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); 
 }
 
-
+.whatsapp:hover, .linkedin:hover {
+  transform: translateX(100px); 
+ 
+}
 
