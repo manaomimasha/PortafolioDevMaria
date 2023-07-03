@@ -369,8 +369,15 @@ span {
 }
 
 .container {
-  position: relative;
-  display: inline-block;
+  /* position: relative; */
+  /* display: inline-block; */
+
+  display: flex; /* Utilizamos flexbox para centrar verticalmente el elemento */
+  justify-content: center; /* Centramos horizontalmente el elemento dentro del contenedor */
+  align-items: center; /* Centramos verticalmente el elemento dentro del contenedor */
+  height: 100vh;
+
+
 }
 
 .slide-container {
