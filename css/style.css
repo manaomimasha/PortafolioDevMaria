@@ -315,9 +315,7 @@ span {
 .container {
   display: flex;
   justify-content: left;
-
-  
-  position: fixed;
+    position: fixed;
   top: calc(50% - 35px); 
   z-index: 9999;
 
