@@ -1,0 +1,85 @@
+
+/* efecto viejo feo que anda mal  */
+
+/* .contact-container {
+  position: fixed;
+  top: calc(50% - 35px); 
+  z-index: 9999;
+      }
+
+.whatsapp {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/archive/6/6b/20181018164719%21WhatsApp.svg) no-repeat 0 1px;
+  background-size: 100% auto;
+  text-indent: -9999em;
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+  background-color: rgb(10, 168, 10);
+  padding-bottom: 5px;
+}
+
+
+.linkedin {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(
+    https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg ) no-repeat 0 1px;
+  background-size: 100% auto;
+  text-indent: -9999em;
+  cursor: pointer;
+  transition: transform 1s ease-in-out; */
+  /* transition: width 2s; */
+  /* background-color: rgb(46, 6, 224); */
+   /* background: blue; */
+  /* transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); 
+}
+
+.whatsapp:hover, .linkedin:hover {
+  transform: translateX(100px); 
+ } */
+
+/* https://www.pngplay.com/wp-content/uploads/8/Whatsapp-PNG-Images-HD.png */
+
+/* .mueve {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: width 2s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  overflow: hidden;
+}
+
+.whatsapp-icon-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.whatsapp-icon {
+  width: 60px; /* Ajusta el tamaño del icono según tus necesidades */
+  /* height: auto; 
+  transition: transform 2s; */
+/* } */
+
+/* .mueve:hover {
+  width: 300px;
+  transition: width 2s;
+}
+
+.mueve:hover .whatsapp-icon {
+  transform: translateX(200px);
+}
+  */
