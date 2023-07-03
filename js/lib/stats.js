@@ -30,6 +30,8 @@ var Stats = function () {
 	fpsGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0ff';
 	fpsDiv.appendChild( fpsGraph );
 
+
+	
 	while ( fpsGraph.children.length < 74 ) {
 
 		var bar = document.createElement( 'span' );
@@ -54,10 +56,10 @@ var Stats = function () {
 
 
 
-	 var msGraph = document.createElement( 'div' );
-	 msGraph.id = 'msGraph';
-	 msGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0f0';
-	 msDiv.appendChild( msGraph );
+	//  var msGraph = document.createElement( 'div' );
+	//  msGraph.id = 'msGraph';
+	//  msGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0f0';
+	//  msDiv.appendChild( msGraph );
 
 
 
