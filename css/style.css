@@ -2,6 +2,10 @@
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
 
+   #ms {
+    display: none;
+  }
+  
 html,
 body,
 div,
@@ -359,8 +363,4 @@ span {
 
 .container:hover .whatsapp-icon {
   left: 100px;
-}
-
-#stats {
-  display: none;
 }
