@@ -301,6 +301,8 @@ span {
 
 
 /* efecto nuevo slide */
+
+
 .whatsapp-icon {
   position: absolute;
   top: 50%;
@@ -313,10 +315,15 @@ span {
 }
 
 .container {
-  display: flex;
+  /* display: flex;
   justify-content: left;
     position: fixed;
   top: calc(50% - 35px); 
+  z-index: 9999; */
+
+  display: inline-block;
+  position: fixed;
+  top: calc(50% - 35px);
   z-index: 9999;
 
 
