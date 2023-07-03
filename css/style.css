@@ -315,18 +315,10 @@ span {
 }
 
 .container {
-  /* display: flex;
-  justify-content: left;
-    position: fixed;
-  top: calc(50% - 35px); 
-  z-index: 9999; */
-
-  display: inline-block;
+   display: inline-block;
   position: fixed;
   top: calc(50% - 35px);
   z-index: 9999;
-
-
 }
 
 .slide-container {
@@ -336,7 +328,7 @@ span {
 }
 
 .slide {
-  
+
   position: absolute;
   left: -100px;
   width: 200px;
