@@ -301,7 +301,6 @@ span {
 
 
 /* efecto nuevo slide */
-
 .whatsapp-icon {
   position: absolute;
   top: 50%;
@@ -310,60 +309,7 @@ span {
   width: 40px;
   height: 40px;
   transition: left 1s;
-  background:rgb(58, 158, 15);
-}
-
-.container {
-  position: relative;
-  display: inline-block;
-}
-
-.slide-container {
-  position: relative;
-  width: 40px;
-  height: 40px; 
-}
-
-.slide {
-  position: absolute;
-  left: -100px;
-  width: 100px;
-  height: 40px;
-  background: rgb(87, 194, 41);
-  transition: left 1s;
-  top: calc(50% - 20px);
-}
-
-
-.linkedin-icon {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  transition: left 1s;
-  background:rgb(46, 6, 224);
-}
-
-.container:hover .slide {
-  left: 0;
-}
-
-.container:hover .whatsapp-icon .linkedin-icon {
-  left: 100px;
-}
-/* 
-
-.whatsapp-icon {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  transition: left 1s;
-  background:rgb(87, 194, 41);
+  background: rgb(24, 78, 1);
 }
 
 .container {
@@ -382,7 +328,7 @@ span {
   left: -100px;
   width: 100px;
   height: 40px;
-  background: rgb(87, 194, 41);
+  background: rgb(24, 78, 1);
   transition: left 1s;
   top: calc(50% - 20px);
 }
@@ -394,6 +340,4 @@ span {
 .container:hover .whatsapp-icon {
   left: 100px;
 }
-
- */
 
