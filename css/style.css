@@ -371,19 +371,19 @@ span {
 
 .whatsapp-icon {
   width: 60px; /* Ajusta el tamaño del icono según tus necesidades */
-  height: auto; /* Asegura que la altura se ajuste automáticamente */
-  transition: transform 2s;
-}
+  /* height: auto; 
+  transition: transform 2s; */
+/* } */
 
-.mueve:hover {
+/* .mueve:hover {
   width: 300px;
   transition: width 2s;
 }
 
 .mueve:hover .whatsapp-icon {
-  transform: translateX(200px); /* Ajusta la distancia a la que deseas que se mueva el icono */
+  transform: translateX(200px);
 }
- */
+  */
 
 
 /* efecto nuevo slide */
@@ -431,7 +431,6 @@ span {
   width: 40px;
   height: 40px;
   transition: left 1s;
-
   background:rgb(46, 6, 224);
 }
 
