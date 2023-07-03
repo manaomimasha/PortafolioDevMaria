@@ -318,8 +318,18 @@ span {
 }
 
 .container {
-  position: relative;
+  /* display: flex;
+  justify-content: left;
+    position: fixed;
+  top: calc(50% - 35px); 
+  z-index: 9999; */
+
   display: inline-block;
+  position: fixed;
+  top: calc(50% - 35px);
+  z-index: 9999;
+
+
 }
 
 .slide-container {
@@ -344,8 +354,8 @@ span {
      border-radius: 30px;
   padding: 2px;
   
-     box-shadow: 0 0 .2rem #727272,
-              0 0 .2rem #a3a2a2,
+     box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
               0 0 2rem #0000FF, /* Color azul oscuro */
               0 0 0.8rem #0000FF, /* Color azul oscuro */
               0 0 2.8rem #0000FF, /* Color azul oscuro */
@@ -358,12 +368,4 @@ span {
      }
 
 
-
-.container:hover .slide {
-  left: 0;
-}
-
-.container:hover .whatsapp-icon {
-  left: 100px;
-}
 
