@@ -316,12 +316,11 @@ span {
   display: flex;
   justify-content: left;
 
+  
+  position: fixed;
+  top: calc(50% - 35px); 
   z-index: 9999;
 
-  position: fixed;
-  top: calc(50% - 50px);
-  left: 0;
-  
 
 }
 
