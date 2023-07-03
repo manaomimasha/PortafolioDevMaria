@@ -355,8 +355,6 @@ span {
 }
 
 
-
-
 .whatsapp-icon {
   position: absolute;
   top: 50%;
@@ -365,9 +363,13 @@ span {
   width: 40px;
   height: 40px;
   transition: left 1s;
-  background:rgb(0, 66, 0);
+  background:rgb(87, 194, 41);
 }
 
+.container {
+  position: relative;
+  display: inline-block;
+}
 
 .slide-container {
   position: relative;
@@ -380,7 +382,7 @@ span {
   left: -100px;
   width: 100px;
   height: 40px;
-  background: rgb(0, 66, 0);
+  background: rgb(87, 194, 41);
   transition: left 1s;
   top: calc(50% - 20px);
 }
