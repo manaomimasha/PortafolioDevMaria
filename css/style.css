@@ -313,14 +313,28 @@ span {
 }
 
 .container {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: left;
+
+
+  
+  position: fixed;
+  top: calc(50% - 50px);
+  left: 0;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 100px;
+  transition: left 1s, top 1s;
+
+
+
+
 }
 
 .slide-container {
   position: relative;
   width: 100px;
-  height: 100px; 
+  height: 100px;
 }
 
 .slide {
@@ -340,4 +354,3 @@ span {
 .container:hover .whatsapp-icon {
   left: 100px;
 }
-
