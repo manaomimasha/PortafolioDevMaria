@@ -368,19 +368,6 @@ span {
   background:rgb(0, 66, 0);
 }
 
-.container {
- position: relative; 
-display: inline-block; 
-}
-
-.sigueme{
-position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-100%, -50%);
-
-
-}
 
 .slide-container {
   position: relative;
