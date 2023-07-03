@@ -311,7 +311,7 @@ span {
   width: 40px;
   height: 40px;
   transition: left 1s;
-  background:transparent;
+  background: transparent;
 }
 
 .container {
@@ -336,6 +336,7 @@ span {
 }
 
 .slide {
+  
   position: absolute;
   left: -100px;
   width: 200px;
@@ -344,21 +345,20 @@ span {
   transition: left 1s;
   top: calc(50% - 20px);
 
- border: 1px solid #9c9b9b;
-     border-radius: 30px;
+  border: 1px solid #9c9b9b;
+  border-radius: 30px;
   padding: 2px;
+  box-shadow: 0 0 .2rem #8d8d8d,
+    0 0 .2rem #bbbbbb,
+    0 0 2rem #0000FF,
+    /* Color azul oscuro */
+    0 0 0.8rem #0000FF,
+    /* Color azul oscuro */
+    0 0 2.8rem #0000FF,
+    /* Color azul oscuro */
+    inset 0 0 1.3rem #0000FF;
 
-     box-shadow: 0 0 .2rem #8d8d8d,
-              0 0 .2rem #bbbbbb,
-              0 0 2rem #0000FF, /* Color azul oscuro */
-              0 0 0.8rem #0000FF, /* Color azul oscuro */
-              0 0 2.8rem #0000FF, /* Color azul oscuro */
-              inset 0 0 1.3rem #0000FF;
-
-
-    transform: translateY(-4px) translateX(-62px); 
-
-
+  transform: translateY(-4px) translateX(-62px);
 
 }
 
@@ -369,6 +369,3 @@ span {
 .container:hover .whatsapp-icon {
   left: 100px;
 }
-
-
-
