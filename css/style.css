@@ -342,13 +342,13 @@ span {
   padding: 2px;
   box-shadow: 0 0 .2rem #8d8d8d,
     0 0 .2rem #bbbbbb,
-    0 0 2rem #0000FF,
+    0 0 2rem #1b1baa,
     /* Color azul oscuro */
-    0 0 0.8rem #0000FF,
+    0 0 0.8rem #0f0f4e,
     /* Color azul oscuro */
     0 0 2.8rem #0000FF,
     /* Color azul oscuro */
-    inset 0 0 1.3rem #0000FF;
+    inset 0 0 1.3rem #07073b;
 
   transform: translateY(-4px) translateX(-62px);
 
