@@ -30,8 +30,6 @@ var Stats = function () {
 	fpsGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0ff';
 	fpsDiv.appendChild( fpsGraph );
 
-
-	
 	while ( fpsGraph.children.length < 74 ) {
 
 		var bar = document.createElement( 'span' );
@@ -49,22 +47,13 @@ var Stats = function () {
 	msText.id = 'msText';
 	msText.style.cssText = 'color:#0f0;font-family:Helvetica,Arial,sans-serif;font-size:9px;font-weight:bold;line-height:15px';
 	msText.innerHTML = 'MS';
-	msDiv.appendChild( msText );
+	// msDiv.appendChild( msText );
 
+	// var msGraph = document.createElement( 'div' );
+	// msGraph.id = 'msGraph';
+	// msGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0f0';
+	// msDiv.appendChild( msGraph );
 
-
-
-
-
-	//  var msGraph = document.createElement( 'div' );
-	//  msGraph.id = 'msGraph';
-	//  msGraph.style.cssText = 'position:relative;width:74px;height:30px;background-color:#0f0';
-	//  msDiv.appendChild( msGraph );
-
-
-
-
-	 
 	while ( msGraph.children.length < 74 ) {
 
 		var bar = document.createElement( 'span' );
