@@ -388,8 +388,6 @@ span {
 
 /* efecto nuevo slide */
 
-
-
 .whatsapp-icon {
   position: absolute;
   top: 50%;
@@ -408,14 +406,14 @@ span {
 
 .slide-container {
   position: relative;
-  width: 100px;
-  height: 100px; 
+  width: 40px;
+  height: 40px; 
 }
 
 .slide {
   position: absolute;
   left: -100px;
-  width: 100px;
+  width: 40px;
   height: 40px;
   background: rgb(87, 194, 41);
   transition: left 1s;
