@@ -300,8 +300,6 @@ span {
 }
 
 
-
-
 /* efecto nuevo slide */
 
 .whatsapp-icon {
@@ -329,7 +327,7 @@ span {
 .slide {
   position: absolute;
   left: -100px;
-  width: 40px;
+  width: 100px;
   height: 40px;
   background: rgb(87, 194, 41);
   transition: left 1s;
@@ -355,3 +353,7 @@ span {
 .container:hover .whatsapp-icon .linkedin-icon {
   left: 100px;
 }
+
+
+
+
