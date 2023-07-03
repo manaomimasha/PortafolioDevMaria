@@ -312,8 +312,7 @@ span {
   width: 40px;
   height: 40px;
   transition: left 1s;
-  background:transparent;
-   
+  background:transparent;   
   
 }
 
@@ -336,10 +335,8 @@ span {
   position: relative;
   width: 100px;
   height: 100px; 
-   
-   
-   
-}
+     
+   }
 
 .slide {
   position: absolute;
@@ -366,6 +363,18 @@ span {
 
 
      }
+
+     
+.container:hover .slide {
+  left: 0;
+}
+
+.container:hover .whatsapp-icon {
+  left: 100px;
+}
+
+
+
 
 
 
