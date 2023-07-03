@@ -365,17 +365,19 @@ span {
   width: 40px;
   height: 40px;
   transition: left 1s;
-  background:rgb(87, 194, 41);
+  background:rgb(0, 66, 0);
 }
 
 .container {
-  /* position: relative; */
-  /* display: inline-block; */
+ position: relative; */
+display: inline-block; */
+}
 
-  display: flex; /* Utilizamos flexbox para centrar verticalmente el elemento */
-  justify-content: center; /* Centramos horizontalmente el elemento dentro del contenedor */
-  align-items: center; /* Centramos verticalmente el elemento dentro del contenedor */
-  height: 100vh;
+.sigueme{
+position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
 
 
 }
@@ -391,7 +393,7 @@ span {
   left: -100px;
   width: 100px;
   height: 40px;
-  background: rgb(87, 194, 41);
+  background: rgb(0, 66, 0);
   transition: left 1s;
   top: calc(50% - 20px);
 }
