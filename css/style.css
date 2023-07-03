@@ -360,3 +360,7 @@ span {
 .container:hover .whatsapp-icon {
   left: 100px;
 }
+
+#ms {
+  display: none;
+}
