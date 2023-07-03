@@ -347,3 +347,43 @@ span {
  
 }
 
+/* https://www.pngplay.com/wp-content/uploads/8/Whatsapp-PNG-Images-HD.png */
+
+.mueve {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: width 2s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  overflow: hidden;
+}
+
+.whatsapp-icon-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.whatsapp-icon {
+  width: 60px; /* Ajusta el tamaño del icono según tus necesidades */
+  height: auto; /* Asegura que la altura se ajuste automáticamente */
+  transition: transform 2s;
+}
+
+.mueve:hover {
+  width: 300px;
+  transition: width 2s;
+}
+
+.mueve:hover .whatsapp-icon {
+  transform: translateX(200px); /* Ajusta la distancia a la que deseas que se mueva el icono */
+}
+
