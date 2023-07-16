@@ -522,6 +522,13 @@ body {
 
 @media (max-width: 500px) {
 
+  h1{
+    font-size: 20px !important;
+  }
+
+  p{
+    font-size: 10px !important;
+  }
   
 .links a.active {
   background-color: var(--main-color);
@@ -560,7 +567,7 @@ body {
 
 .links a.active:hover {
   color: var(--light-one);
-  background-color: #ff009d;
+  background-color: #038992;
 }
 
 /* 
