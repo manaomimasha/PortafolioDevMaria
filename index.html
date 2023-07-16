@@ -9,11 +9,13 @@
   <meta name="viewport"
     content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <link rel="stylesheet" media="screen" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet" />
 
+
+  <link rel="stylesheet" media="screen" href="css/style.css">
 
 
 </head>
@@ -24,6 +26,35 @@
 
 
   <div class="centered">
+
+    <nav class=" item item1">
+      <div class="container1">
+
+        <div class="links">
+          <ul>
+            <li>
+              <a class="active" href="#header">Portafolio</a>
+            </li>
+            <li>
+              <a class="active" href="#services">Descarga aquí mi Cv</a>
+            </li>
+            <li>
+              <a class="active" href="#portfolio">Mis trabajos</a>
+            </li>
+<!-- 
+            <li>
+              <a class="active" href="#testimonials">Testimonios</a>
+            </li>
+            <li>
+              <a class="active" href="#">Contactate con nosotros</a>
+            </li> -->
+
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
     <h1>
       <span>Bienvenido! Soy María!</span>
     </h1>
@@ -33,6 +64,27 @@
       la intención de insertarme profesionalmente en la industria de IT. Me considero una persona entusiasta,
       dinámica y con facilidad para el aprendizaje de nuevos temas..
     </p>
+
+
+    <div class="icons-social item item4">
+
+      <a target="_blank" href="#"> <a target="_blank" href="#">
+          <i class="fab fa-github" aria-hidden="true" title="Facebook"></i>
+          <span class="sr-only">Facebook</span>
+        </a>
+
+        <a target="_blank" href="#">
+          <i class="fab fa-linkedin" aria-hidden="true" title="Instagram"></i>
+          <span class="sr-only">Instagram</span>
+
+        </a> <a target="_blank" href="#">
+          <i class="fab fa-whatsapp" aria-hidden="true" title="Twitter"></i>
+          <span class="sr-only">Twitter</span>
+        </a>
+
+    </div>
+
+
   </div>
 
 
@@ -120,7 +172,7 @@
             title="LinkedIn">LinkeinIn</a>
            https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg  -->
   <!-- </a>  -->
-<!-- 
+  <!-- 
   </div>
   </div>
   </div>
@@ -139,26 +191,25 @@
     <img src="https://www.pngplay.com/wp-content/uploads/8/Whatsapp-PNG-Images-HD.png" alt="WhatsApp Icon" class="whatsapp-icon">
   </div> -->
 
-
+<!-- 
   <div class="container">
     <div class="slide-container">
       <div class="slide"></div>
 
       <div class="whatsapp-container">
-        <<a href="https://wa.me/541130912600">
+        <a href="https://wa.me/541130912600">
           <img class="whatsapp-icon"
-            src="
-                                         
+            src="                                 
                                           
                                          data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxLjQxNDIxOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIxMDAlIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNlcmlmPSJodHRwOi8vd3d3LnNlcmlmLmNvbS8iIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cmVjdCBoZWlnaHQ9IjI0IiBpZD0iQXJ0Ym9hcmQxIiBzdHlsZT0iZmlsbDpub25lOyIgd2lkdGg9IjI0IiB4PSIwIiB5PSIwIi8+PGc+PGc+PHBhdGggZD0iTTQuMDE4LDE3LjA0OGMtMC45NiwtMS40ODQgLTEuNTE4LC0zLjI1MyAtMS41MTgsLTUuMTUxYzAsLTUuMjQzIDQuMjU3LC05LjUgOS41LC05LjVjNS4yNDMsMCA5LjUsNC4yNTcgOS41LDkuNWMwLDUuMjQzIC00LjI1Nyw5LjUgLTkuNSw5LjVjLTEuNzc3LDAgLTMuNDQsLTAuNDg5IC00Ljg2MywtMS4zMzlsLTQuNjM3LDEuNTQ1bDEuNTE4LC00LjU1NVoiIHN0eWxlPSJmaWxsOiNmM2YzZjM7Ii8+PHBhdGggZD0iTTUuNzk1LDE2LjMwNGMtMC44ODYsLTEuMjQ0IC0xLjQwNywtMi43NjUgLTEuNDA3LC00LjQwN2MwLC00LjIwMSAzLjQxMSwtNy42MTIgNy42MTIsLTcuNjEyYzQuMjAxLDAgNy42MTIsMy40MTEgNy42MTIsNy42MTJjMCw0LjIwMSAtMy40MTEsNy42MTEgLTcuNjEyLDcuNjExYy0xLjU5LDAgLTMuMDY2LC0wLjQ4OCAtNC4yODgsLTEuMzIzbC0yLjg2MiwwLjk1NGwwLjk0NSwtMi44MzVaIiBzdHlsZT0iZmlsbDojMDBhODJkOyIvPjwvZz48cGF0aCBkPSJNOS43MTQsMTMuODczYy0xLjEyNCwtMS4zNzQgLTEuODc0LC0zLjA1NiAtMi4xMDksLTQuODhjLTAuMDYzLC0wLjUwOCAwLjEwNiwtMS4wMTggMC40NjEsLTEuMzg3YzAuMzU1LC0wLjM2OSAwLjg1OCwtMC41NTggMS4zNjgsLTAuNTE1bDAuMDQ5LDAuMDA1YzAsMCAwLjU2MSwwLjE1IDAuODY4LDAuMjMzYzAuMTIyLDAuMDMzIDAuMjE5LDAuMTI0IDAuMjYsMC4yNDNjMC4xMzgsMC40MSAwLjQ2NCwxLjM3MyAwLjYxOCwxLjgyNmMwLjA1LDAuMTQ3IDAuMDA0LDAuMzEgLTAuMTE0LDAuNDFjLTAuMjMzLDAuMTk2IC0wLjYxOCwwLjUyIC0wLjg1OCwwLjcyM2MtMC4xMjksMC4xMDkgLTAuMTcsMC4yOSAtMC4xLDAuNDQzYzAuMjc5LDAuNjA4IDAuNjM1LDEuMTc2IDEuMDU3LDEuNjljMC40MzQsMC41MDIgMC45MzMsMC45NDkgMS40ODUsMS4zMjdjMC4xNCwwLjA5NSAwLjMyNSwwLjA4NSAwLjQ1NCwtMC4wMjRjMC4yNDEsLTAuMjAyIDAuNjI2LC0wLjUyNiAwLjg1OCwtMC43MjJjMC4xMTksLTAuMSAwLjI4NywtMC4xMTcgMC40MjQsLTAuMDQzYzAuNDIsMC4yMjggMS4zMTQsMC43MTIgMS42OTQsMC45MThjMC4xMTEsMC4wNiAwLjE4NSwwLjE3MiAwLjE5NiwwLjI5N2MwLjAyOSwwLjMxNyAwLjA4MywwLjg5NSAwLjA4MywwLjg5NWwtMC4wMDQsMC4wNDljLTAuMDQ0LDAuNTEgLTAuMzE1LDAuOTc0IC0wLjczOSwxLjI2MWMtMC40MjQsMC4yODggLTAuOTU1LDAuMzY4IC0xLjQ0NSwwLjIyYy0xLjc3MiwtMC41NDUgLTMuMzEzLC0xLjU4MSAtNC40NzksLTIuOTM3bC0wLjAyNywtMC4wMzJaIiBzdHlsZT0iZmlsbDojZjNmM2YzOyIvPjwvZz48L3N2Zz4=                 "
             alt="whatsapp">
-          </a>
+        </a>
 
-          </a>
+        </a>
 
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 
