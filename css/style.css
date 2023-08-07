@@ -540,7 +540,8 @@ body {
 
   .links ul {
     flex-direction: column;
-    align-items: flex-start;
+/*      EDIT(9.48HS 7/8) :*/
+/*     align-items: flex-start; */
   }
 
   /* */
